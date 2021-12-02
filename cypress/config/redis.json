@@ -1,0 +1,5 @@
+{
+   "host":"xxxx",
+   "port":6379,
+   "password":"xxx"
+}

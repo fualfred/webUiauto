@@ -1,0 +1,174 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "使用新密码登录",
+    "uid" : "19c120650ecc801a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367571385,
+      "stop" : 1638367574581,
+      "duration" : 3196
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "通过Email修改密码成功",
+    "uid" : "ba298398969c133c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367528585,
+      "stop" : 1638367541074,
+      "duration" : 12489
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Activities",
+    "uid" : "82877b57e3bbff67",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367597710,
+      "stop" : 1638367597901,
+      "duration" : 191
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "登录测试失败-账号不存在或者密码错误-cypressTest1@test.com-Aa1234567",
+    "uid" : "f97bd482c3a0a1c9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367525087,
+      "stop" : 1638367526868,
+      "duration" : 1781
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "再次使用修改后的密码登录",
+    "uid" : "b1ca4ba3d07e8e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367586799,
+      "stop" : 1638367589574,
+      "duration" : 2775
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "再次使用修改后的密码登录",
+    "uid" : "6d2d15bc96349ed6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367556283,
+      "stop" : 1638367559061,
+      "duration" : 2778
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "登录成功，跳转到dashboard页面",
+    "uid" : "86de4c308a1c94e7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367517658,
+      "stop" : 1638367525059,
+      "duration" : 7401
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "点击Teams",
+    "uid" : "b6397802dd790d3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367596654,
+      "stop" : 1638367597681,
+      "duration" : 1027
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "再次修改密码，修改成原始密码",
+    "uid" : "ba544ab47155a9b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367544293,
+      "stop" : 1638367556246,
+      "duration" : 11953
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "通过Phone修改密码成功",
+    "uid" : "78e8b7aa896cacb1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367559094,
+      "stop" : 1638367571355,
+      "duration" : 12261
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "使用新密码登录",
+    "uid" : "d726d2eab041e315",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367541102,
+      "stop" : 1638367544275,
+      "duration" : 3173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "再次修改密码，修改成原始密码",
+    "uid" : "d0ef1d63ffc66f0d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367574599,
+      "stop" : 1638367586764,
+      "duration" : 12165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "登录测试失败-账号不存在或者密码错误-cypressTest@test.com-Aa12345678",
+    "uid" : "d5701921e74779c1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638367526884,
+      "stop" : 1638367528565,
+      "duration" : 1681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

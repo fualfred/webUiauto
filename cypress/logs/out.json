@@ -1,0 +1,223 @@
+{
+  "cypress/integration/testTeams.spec.js": {
+    "Teams功能模块测试 -> 跳转到TeamsPage测试 -> 跳转到TeamsPage测试": [
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "contains\tTeams"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "new url\thttp://testonline-web.arizehub.com/dashboard"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getSetting"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getManagedCommunities"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "click\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "new url\thttp://testonline-web.arizehub.com/users"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getManagedAccounts"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "url\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "assert\texpected **http://testonline-web.arizehub.com/users** to equal **http://testonline-web.arizehub.com/users**"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t.main>div>div>button>span"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "assert\texpected **<span>** to have text **Add member**"
+      }
+    ],
+    "Teams功能模块测试 -> 跳转到TeamsPage测试 -> 创建管理员账号正常流程": [
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "contains\tAdd member"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "click\t"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getCommunityMsg\nStatus: 200 - OK"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getIndexBasicInfo\nStatus: 200 - OK"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getHomePageAlertBasicInfo\nStatus: 200 - OK"
+      },
+      {
+        "type": "cons:log",
+        "severity": "success",
+        "message": "{}"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\tinput[placeholder=\"Enter first name\"]"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "clear\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\taad"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\tinput[placeholder=\"Enter last name\"]"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "clear\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\tadaf"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\tinput[placeholder=\"Enter email\"]"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "clear\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\taa@test.com"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getCommunityMsg\nStatus: 200 - OK"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getIndexBasicInfo\nStatus: 200 - OK"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\tinput[placeholder=\"Enter phone number\"]"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "clear\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\t2011211232"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "wait\t6000"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getCommunityMsg\nStatus: 200 - OK"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\tinput[placeholder=\"Select role\"]"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "click\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "contains\tAdmin"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "click\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t.el-checkbox__input"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "first\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "click\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\tdiv[aria-label=\"Add Member\"]>.el-dialog__footer button"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "click\t"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST http://testonline-hubapi.arizehub.com/securityWeb/v1/createMemberAccount"
+      }
+    ]
+  }
+}

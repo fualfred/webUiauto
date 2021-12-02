@@ -1,0 +1,13 @@
+{
+    "baseUrl":"http://testonline-web.arizehub.com/",
+    "viewportWidth": 1500,
+    "viewportHeight": 1000,
+    "env":{
+        "allureResultsPath":"cypress/allure-results"
+    },
+    "username":"cypressTest@test.com",
+    "password":"Aa123456",
+    "phone":"2014578787",
+    "testUsername":"cypressTest1@test.com",
+    "testPassword":"Aa123456"
+}

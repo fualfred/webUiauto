@@ -1,0 +1,31 @@
+{
+  "name": "arize_web_auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all --continue-on-error allure:clean cy:run allure:generate allure:open",
+    "cy:open": "cypress open",
+    "allure:clean":"rm -rf cypress/allure-report cypress/allure-results",
+    "cy:run": "npx cypress run --config video=false --env allure=true",
+    "allure:generate": "allure generate cypress/allure-results -o cypress/allure-report --clean",
+    "allure:open": "allure open cypress/allure-report"
+  },
+  "author": "Alfred",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.22.1",
+    "cypress": "^8.7.0",
+    "cypress-localstorage-commands": "^1.6.1",
+    "cypress-terminal-report": "^3.4.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "fs-extra": "^10.0.0",
+    "ioredis": "^4.28.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "redis": "^3.1.2"
+  }
+}

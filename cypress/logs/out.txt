@@ -1,0 +1,54 @@
+cypress/integration/testTeams.spec.js:
+    Teams功能模块测试 -> 跳转到TeamsPage测试 -> 跳转到TeamsPage测试
+        cy:command (K): contains	Teams
+        cy:command (K): new url	http://testonline-web.arizehub.com/dashboard
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getSetting
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getManagedCommunities
+        cy:command (K): click
+        cy:command (K): new url	http://testonline-web.arizehub.com/users
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getManagedAccounts
+        cy:command (K): url
+        cy:command (K): assert	expected **http://testonline-web.arizehub.com/users** to equal **http://testonline-web.arizehub.com/users**
+        cy:command (K): get	.main>div>div>button>span
+        cy:command (K): assert	expected **<span>** to have text **Add member**
+
+    Teams功能模块测试 -> 跳转到TeamsPage测试 -> 创建管理员账号正常流程
+        cy:command (K): contains	Add member
+        cy:command (K): click
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getCommunityMsg
+                        Status: 200 - OK
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getIndexBasicInfo
+                        Status: 200 - OK
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getHomePageAlertBasicInfo
+                        Status: 200 - OK
+          cons:log (K): {}
+        cy:command (K): get	input[placeholder="Enter first name"]
+        cy:command (K): clear
+        cy:command (K): type	aad
+        cy:command (K): get	input[placeholder="Enter last name"]
+        cy:command (K): clear
+        cy:command (K): type	adaf
+        cy:command (K): get	input[placeholder="Enter email"]
+        cy:command (K): clear
+        cy:command (K): type	aa@test.com
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getCommunityMsg
+                        Status: 200 - OK
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getIndexBasicInfo
+                        Status: 200 - OK
+        cy:command (K): get	input[placeholder="Enter phone number"]
+        cy:command (K): clear
+        cy:command (K): type	2011211232
+        cy:command (K): wait	6000
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/getCommunityMsg
+                        Status: 200 - OK
+        cy:command (K): get	input[placeholder="Select role"]
+        cy:command (K): click
+        cy:command (K): contains	Admin
+        cy:command (K): click
+        cy:command (K): get	.el-checkbox__input
+        cy:command (K): first
+        cy:command (K): click
+        cy:command (K): get	div[aria-label="Add Member"]>.el-dialog__footer button
+        cy:command (K): click
+            cy:xhr (K): POST http://testonline-hubapi.arizehub.com/securityWeb/v1/createMemberAccount
+

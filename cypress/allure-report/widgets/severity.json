@@ -1,0 +1,131 @@
+[ {
+  "uid" : "b1ca4ba3d07e8e",
+  "name" : "再次使用修改后的密码登录",
+  "time" : {
+    "start" : 1638367586799,
+    "stop" : 1638367589574,
+    "duration" : 2775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d2d15bc96349ed6",
+  "name" : "再次使用修改后的密码登录",
+  "time" : {
+    "start" : 1638367556283,
+    "stop" : 1638367559061,
+    "duration" : 2778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f97bd482c3a0a1c9",
+  "name" : "登录测试失败-账号不存在或者密码错误-cypressTest1@test.com-Aa1234567",
+  "time" : {
+    "start" : 1638367525087,
+    "stop" : 1638367526868,
+    "duration" : 1781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba544ab47155a9b",
+  "name" : "再次修改密码，修改成原始密码",
+  "time" : {
+    "start" : 1638367544293,
+    "stop" : 1638367556246,
+    "duration" : 11953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78e8b7aa896cacb1",
+  "name" : "通过Phone修改密码成功",
+  "time" : {
+    "start" : 1638367559094,
+    "stop" : 1638367571355,
+    "duration" : 12261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86de4c308a1c94e7",
+  "name" : "登录成功，跳转到dashboard页面",
+  "time" : {
+    "start" : 1638367517658,
+    "stop" : 1638367525059,
+    "duration" : 7401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19c120650ecc801a",
+  "name" : "使用新密码登录",
+  "time" : {
+    "start" : 1638367571385,
+    "stop" : 1638367574581,
+    "duration" : 3196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba298398969c133c",
+  "name" : "通过Email修改密码成功",
+  "time" : {
+    "start" : 1638367528585,
+    "stop" : 1638367541074,
+    "duration" : 12489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6397802dd790d3",
+  "name" : "点击Teams",
+  "time" : {
+    "start" : 1638367596654,
+    "stop" : 1638367597681,
+    "duration" : 1027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82877b57e3bbff67",
+  "name" : "Activities",
+  "time" : {
+    "start" : 1638367597710,
+    "stop" : 1638367597901,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0ef1d63ffc66f0d",
+  "name" : "再次修改密码，修改成原始密码",
+  "time" : {
+    "start" : 1638367574599,
+    "stop" : 1638367586764,
+    "duration" : 12165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d726d2eab041e315",
+  "name" : "使用新密码登录",
+  "time" : {
+    "start" : 1638367541102,
+    "stop" : 1638367544275,
+    "duration" : 3173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5701921e74779c1",
+  "name" : "登录测试失败-账号不存在或者密码错误-cypressTest@test.com-Aa12345678",
+  "time" : {
+    "start" : 1638367526884,
+    "stop" : 1638367528565,
+    "duration" : 1681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
